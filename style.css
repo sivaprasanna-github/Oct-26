@@ -79,7 +79,7 @@ main{
 }
 
 #mic{
-  height: 20px;
+  height: 25px;
   position: absolute;
   top: 12px;
   right: 55px;
@@ -87,7 +87,7 @@ main{
 
 
 #camera{
-  height: 20px;
+  height: 30px;
   position: absolute;
   top: 12px;
   right: 20px;
@@ -194,25 +194,6 @@ main{
 #p2{
   font-size: 12px;
 }
-
-
-
-footer{
-  height: 30vh;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  padding-right: 20px;
-}
-
-#pencil{
-  position: relative;
-  bottom: 4px;
-  left: 35px;
-}
-
-
 #p1{
   background-color: lightblue;
   padding: 8px 16px;
@@ -284,26 +265,4 @@ footer{
       outline: none;
       font-size: 16px;
   }
-
-  footer{
-      height: 30vh;
-      width: 100%;
-      display: flex;
-      justify-content: flex-end;
-      align-items: flex-end;
-      padding-right: 50px;
-  }
-
-  footer #p1{
-      display: none;
-  }
-
-  footer #pencil{
-      background-color: lightblue;
-      padding: 6px;
-      border-radius: 50%;
-      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
-  }
-  
 }
-
